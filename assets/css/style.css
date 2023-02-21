@@ -62,18 +62,18 @@
 .nav-kev li{
     list-style: none;
 }
-.nav-kev{
+.hidde{
     background-color: white;
     opacity: .6;
     transition: 1.4s;
 }
-nav:hover{
+.hidde:hover{
     opacity: 1;
 }
 .nav-kev2{
     height: auto;
     background-color: white;
-    opacity: 1;
+    
 }
 .nav-kev2 .item2{
     padding-top: 1rem;
@@ -386,6 +386,7 @@ svg {
     .navbar-toggler, .navbar-colapse{
              display: none;
     }
+
  }
  
  @media(max-width:1044px){
@@ -393,14 +394,19 @@ svg {
          display: none;
      }
  
-     .serch i, .serch p{
-         display: none;
-     }
      .nav-division{
          display:flex;
          align-items: center;
      }
- 
+     .efe{
+        display: none!important;
+     }
+     .user{
+        align-items: center!important;
+     }
+     .hidde{
+        opacity: 1;
+     }
  }
 
  @media (min-width: 601px){
@@ -454,4 +460,5 @@ svg {
 
         font-size: .5rem;
     }    
+
 }
